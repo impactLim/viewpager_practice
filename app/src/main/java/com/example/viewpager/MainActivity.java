@@ -6,7 +6,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -62,9 +66,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // gif 3초 이미지뷰
-        ImageView rabbit_image = (ImageView) findViewById(R.id.imageView);
-        Glide.with(this).load(R.drawable.splashgif).into(rabbit_image);
+//        // gif 3초 이미지뷰
+//        ImageView rabbit_image = (ImageView) findViewById(R.id.imageView);
+//        Glide.with(this).load(R.drawable.splashgif).into(rabbit_image);
+
+
 
     }
 
